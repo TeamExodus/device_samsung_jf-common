@@ -36,7 +36,7 @@ public class KeyDisabler {
      */
 
     public static boolean isSupported() {
-        return FileUtils.isFileWritable(KEYDISABLER_PATH);
+        return true; //org.cyanogenmod.hardware.util.FileUtils.isFileWritable(KEYDISABLER_PATH); //#TODO: REVISIT
     }
 
     /*
